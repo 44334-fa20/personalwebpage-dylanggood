@@ -1,1 +1,65 @@
-/*Personal Web Page Style Sheet */
+@font-face{
+    src: url(fonts/Duplexide.ttf);
+    font-family: duplexide;
+}
+html { 
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *:before, *;after{
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #000;
+    color: #820a1e;
+    font-family: Arial, Helvecta, sans-serif;
+}
+
+section, aside, div {
+    padding: 20px;
+    border-radius: 12px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'duplexide';
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h1, h2 {
+    margin-top: 0px;
+    font-family: 'duplexide';
+}
+
+nav {
+    font-family: 'duplexide';
+}
+
+ul {display: inline;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.sidebar {
+    flex: 1;
+}
+
+img { width: 48%;
+    height: 75%;
+
+}
+
+p {font-family: helvecta Neue}
+
+footer {}
